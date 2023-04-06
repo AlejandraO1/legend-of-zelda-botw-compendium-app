@@ -18,7 +18,18 @@ function displayItemEntry(response) {
   );
 }
 
-let entry = "Lord of the Mountain";
-let apiUrl = `https://botw-compendium.herokuapp.com/api/v2/entry/${entry}`;
+function searchEntry(entry) {
+  let apiUrl = `https://botw-compendium.herokuapp.com/api/v2/entry/${entry}`;
+  axios.get(apiUrl).then(displayItemEntry);
+}
 
-axios.get(apiUrl).then(displayItemEntry);
+function handleSubmit(event) {
+  event.preventDefault();
+  let entryInputElement = document.querySelector("#entry-input");
+  searchEntry(entryInputElement.value);
+}
+
+searchEntry("Lord of the Mountain");
+
+let form = document.querySelector("#search-bar");
+form.addEventListener("submit", handleSubmit);

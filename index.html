@@ -18,7 +18,6 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link href="styles.css" rel="stylesheet" />
-    <script src="app.js"></script>
     <title>Legend Of Zelda BOTW Compendium</title>
   </head>
   <body>
@@ -27,8 +26,9 @@
         <img src="botw-logo.png" class="logo" width="400" height="500" />
       </div>
       <h1>Compendium</h1>
-      <form>
-        <input type="text" autocomplete="off" autofocus="on" />
+      <form id="search-bar">
+        <input type="text" autocomplete="off" autofocus="on" id="entry-input" />
+        <input type="submit" value="Search" id="search" />
       </form>
       <div class="entry">
         <div class="row">
@@ -63,5 +63,6 @@
         >
       </footer>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
