@@ -1,9 +1,59 @@
+body {
+  background-color: #526f50;
+  color: #86a5a9;
+}
+
 h1 {
-  font-size: 64px;
+  font-size: 60px;
   text-align: center;
   font-family: "Oswald", sans-serif;
+  color: #b9a066;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fdffe0;
+}
+
+form {
+  text-align: center;
+  margin: 25px;
 }
 
 footer {
   font-family: "GFS Didot", serif;
+  margin: 25px;
+}
+
+footer a {
+  color: #b9a066;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+footer a:hover {
+  color: #fdffe0;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  margin-top: 15px;
+}
+
+.type-id h5 {
+  font-size: 14px;
+  text-align: end;
+}
+
+.data-info h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.data-info h4 {
+  font-size: 25px;
 }
