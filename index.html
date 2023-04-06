@@ -26,16 +26,25 @@
         <img src="botw-logo.png" class="logo" width="400" height="500" />
       </div>
       <h1>Compendium</h1>
+      <h2>Search for all 385 in-game interactive items</h2>
       <form id="search-bar">
         <input type="text" autocomplete="off" autofocus="on" id="entry-input" />
         <input type="submit" value="Search" id="search" />
       </form>
+      <p class="entry-examples">
+        <em
+          >i.e: master sword, blupee, fairy, white-maned lynel, lizal
+          boomerang</em
+        >
+      </p>
       <div class="entry">
         <div class="row">
           <div class="col-md-2 type-id">
             <h5 id="category"></h5>
-            <h5>ID #</h5>
-            <h5 id="number"></h5>
+            <div style="display: flex; flex-direction: row; float: right">
+              <h5>#</h5>
+              <h5 id="number"></h5>
+            </div>
           </div>
           <div class="col-md-5 data-info">
             <h3 id="name"></h3>

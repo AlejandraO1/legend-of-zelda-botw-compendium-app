@@ -10,22 +10,30 @@ h1 {
   color: #b9a066;
 }
 
+h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
   color: #fdffe0;
+  text-transform: capitalize;
 }
 
 form {
   text-align: center;
-  margin: 25px;
+  margin-top: 15px;
 }
 
 footer {
   font-family: "GFS Didot", serif;
   margin: 25px;
+  text-align: center;
 }
 
 footer a {
@@ -44,6 +52,13 @@ footer a:hover {
   margin-top: 15px;
 }
 
+.entry-examples {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
 .type-id h5 {
   font-size: 14px;
   text-align: end;
@@ -54,6 +69,16 @@ footer a:hover {
   text-align: center;
 }
 
+.data-info p {
+  text-align: justify;
+}
+
 .data-info h4 {
   font-size: 25px;
+}
+
+#item-image {
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
 }
