@@ -116,3 +116,11 @@ footer a:hover {
   margin: 0 auto;
   border-radius: 12px;
 }
+
+#creature-container ul {
+  list-style: none;
+  text-align: center;
+  border: 2px solid #fdffe0;
+  padding-left: 0px;
+  margin: 25px;
+}

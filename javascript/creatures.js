@@ -5,7 +5,7 @@ function showAllCreatures(response) {
   creatures.forEach((creature) => {
     let creatureList = document.createElement("ul");
     let nameItem = document.createElement("li");
-    nameItem.innerHTML = `<strong>Name: </strong>${creature.name}`;
+    nameItem.innerHTML = `<strong>Name: </strong><h5>${creature.name}</h5`;
 
     creatureList.appendChild(nameItem);
     let numberItem = document.createElement("li");
