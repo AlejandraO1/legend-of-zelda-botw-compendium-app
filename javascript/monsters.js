@@ -37,7 +37,6 @@ function showAllMonsters(response) {
     monsterList.appendChild(imageItem);
 
     container.appendChild(monsterList);
-    console.log(response.data.data);
   });
 }
 
