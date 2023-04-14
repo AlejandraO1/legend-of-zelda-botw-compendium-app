@@ -9,7 +9,8 @@ nav {
 }
 
 nav ul {
-  padding: 0;
+  padding-left: 0;
+  padding-top: 45px;
   margin: 0;
 }
 
@@ -81,9 +82,8 @@ footer a:hover {
 }
 
 .logo {
-  max-width: 100%;
+  max-width: 20%;
   height: auto;
-  margin-top: 15px;
 }
 
 .entry-examples {
