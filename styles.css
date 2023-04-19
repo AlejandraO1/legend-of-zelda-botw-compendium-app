@@ -48,8 +48,7 @@ h1 {
 
 h2 {
   font-size: 25px;
-  text-align: center;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 h2,
@@ -62,8 +61,7 @@ h6 {
 }
 
 form {
-  text-align: center;
-  margin-top: 15px;
+  margin: 25px 0px;
 }
 
 footer {
@@ -82,13 +80,21 @@ footer a:hover {
   color: #fdffe0;
 }
 
+.homepage-header {
+  letter-spacing: 0.2rem;
+}
+
+.hero-homepage {
+  padding-bottom: 75px;
+  padding-top: 15px;
+}
+
 .logo {
   max-width: 20%;
   height: auto;
 }
 
 .entry-examples {
-  text-align: center;
   margin-top: 10px;
   margin-bottom: 25px;
   font-size: 14px;
@@ -116,6 +122,10 @@ footer a:hover {
   display: block;
   margin: 0 auto;
   border-radius: 12px;
+}
+
+#entry-input {
+  width: 50%;
 }
 
 .content-header {
