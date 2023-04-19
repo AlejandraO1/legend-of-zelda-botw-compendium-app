@@ -12,11 +12,11 @@ function showAllTreasures(response) {
   treasures.forEach((treasure) => {
     let treasureList = document.createElement("ul");
     let nameItem = document.createElement("li");
-    nameItem.innerHTML = `<strong>Name: </strong> <h5>${treasure.name}</h5>`;
+    nameItem.innerHTML = `<h5>${treasure.name}</h5>`;
     treasureList.appendChild(nameItem);
 
     let numberItem = document.createElement("li");
-    numberItem.innerHTML = `<strong>ID: </strong>${treasure.id}`;
+    numberItem.innerHTML = `#${treasure.id}`;
     treasureList.appendChild(numberItem);
 
     let descriptionItem = document.createElement("li");

@@ -12,11 +12,11 @@ function showAllMaterials(response) {
   materials.forEach((material) => {
     let materialList = document.createElement("ul");
     let nameItem = document.createElement("li");
-    nameItem.innerHTML = `<strong>Name: </strong> <h5>${material.name}</h5>`;
+    nameItem.innerHTML = `<h5>${material.name}</h5>`;
     materialList.appendChild(nameItem);
 
     let numberItem = document.createElement("li");
-    numberItem.innerHTML = `<strong>ID: </strong>${material.id}`;
+    numberItem.innerHTML = `#${material.id}`;
     materialList.appendChild(numberItem);
 
     let descriptionItem = document.createElement("li");

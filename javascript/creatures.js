@@ -8,11 +8,11 @@ function showAllCreatures(response) {
   allCreatures.forEach((creature) => {
     let creatureList = document.createElement("ul");
     let nameItem = document.createElement("li");
-    nameItem.innerHTML = `<strong>Name: </strong><h5>${creature.name}</h5>`;
+    nameItem.innerHTML = `<h5>${creature.name}</h5>`;
 
     creatureList.appendChild(nameItem);
     let numberItem = document.createElement("li");
-    numberItem.innerHTML = `<strong>ID: </strong>${creature.id}`;
+    numberItem.innerHTML = `#${creature.id}`;
     creatureList.appendChild(numberItem);
 
     let descriptionItem = document.createElement("li");

@@ -12,11 +12,11 @@ function showAllEquipments(response) {
   equipments.forEach((equipment) => {
     let equipmentList = document.createElement("ul");
     let nameItem = document.createElement("li");
-    nameItem.innerHTML = `<strong>Name: </strong> <h5>${equipment.name}</h5>`;
+    nameItem.innerHTML = `<h5>${equipment.name}</h5>`;
     equipmentList.appendChild(nameItem);
 
     let numberItem = document.createElement("li");
-    numberItem.innerHTML = `<strong>ID: </strong>${equipment.id}`;
+    numberItem.innerHTML = `#${equipment.id}`;
     equipmentList.appendChild(numberItem);
 
     let descriptionItem = document.createElement("li");

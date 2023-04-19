@@ -12,11 +12,11 @@ function showAllMonsters(response) {
   monsters.forEach((monster) => {
     let monsterList = document.createElement("ul");
     let nameItem = document.createElement("li");
-    nameItem.innerHTML = `<strong>Name: </strong> <h5>${monster.name}</h5>`;
+    nameItem.innerHTML = `<h5>${monster.name}</h5>`;
     monsterList.appendChild(nameItem);
 
     let numberItem = document.createElement("li");
-    numberItem.innerHTML = `<strong>ID: </strong>${monster.id}`;
+    numberItem.innerHTML = `#${monster.id}`;
     monsterList.appendChild(numberItem);
 
     let descriptionItem = document.createElement("li");
