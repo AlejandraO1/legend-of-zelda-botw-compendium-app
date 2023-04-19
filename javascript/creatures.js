@@ -1,8 +1,11 @@
 function showAllCreatures(response) {
-  const creatures = response.data.data.food;
+  const foodCreatures = response.data.data.food;
+  const nonFoodCreatures = response.data.data.non_food;
+  const allCreatures = [...foodCreatures, ...nonFoodCreatures];
+  allCreatures.sort((a, b) => a.id - b.id);
   let container = document.querySelector("#creature-container");
 
-  creatures.forEach((creature) => {
+  allCreatures.forEach((creature) => {
     let creatureList = document.createElement("ul");
     let nameItem = document.createElement("li");
     nameItem.innerHTML = `<strong>Name: </strong><h5>${creature.name}</h5>`;
