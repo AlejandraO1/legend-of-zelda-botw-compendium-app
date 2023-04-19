@@ -38,6 +38,7 @@ nav a:hover {
   color: #b9a066;
 }
 
+/* Homepage */
 h1 {
   font-size: 60px;
   text-align: center;
@@ -117,10 +118,126 @@ footer a:hover {
   border-radius: 12px;
 }
 
+.content-header {
+  padding-bottom: 45px;
+}
+
+/* Creatures Page */
+#creature-container {
+  background-color: #fdffe0;
+  padding: 5px;
+}
+
 #creature-container ul {
   list-style: none;
   text-align: center;
-  border: 2px solid #fdffe0;
+  border-bottom: 2px solid #526f50;
+  padding-bottom: 10px;
   padding-left: 0px;
   margin: 25px;
+}
+
+#creature-container ul:last-child {
+  border-bottom: none;
+}
+
+#creature-container h5 {
+  font-size: 30px;
+  color: #b9a066;
+}
+
+/* Monsters Page */
+#monster-container {
+  background-color: #fdffe0;
+  padding: 5px;
+}
+
+#monster-container ul {
+  list-style: none;
+  text-align: center;
+  border-bottom: 2px solid #526f50;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  margin: 25px;
+}
+
+#monster-container ul:last-child {
+  border-bottom: none;
+}
+
+#monster-container h5 {
+  font-size: 30px;
+  color: #b9a066;
+}
+
+/* Materials Page */
+#material-container {
+  background-color: #fdffe0;
+  padding: 5px;
+}
+
+#material-container ul {
+  list-style: none;
+  text-align: center;
+  border-bottom: 2px solid #526f50;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  margin: 25px;
+}
+
+#material-container ul:last-child {
+  border-bottom: none;
+}
+
+#material-container h5 {
+  font-size: 30px;
+  color: #b9a066;
+}
+
+/* Equipment Page */
+#equipment-container {
+  background-color: #fdffe0;
+  padding: 5px;
+}
+
+#equipment-container ul {
+  list-style: none;
+  text-align: center;
+  border-bottom: 2px solid #526f50;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  margin: 25px;
+}
+
+#equipment-container ul:last-child {
+  border-bottom: none;
+}
+
+#equipment-container h5 {
+  font-size: 30px;
+  color: #b9a066;
+}
+
+/* Treasure Page */
+#treasure-container {
+  background-color: #fdffe0;
+  padding: 5px;
+}
+
+#treasure-container ul {
+  list-style: none;
+  text-align: center;
+  border-bottom: 2px solid #526f50;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  margin: 25px;
+}
+
+#treasure-container ul:last-child {
+  border-bottom: none;
+}
+
+#treasure-container h5 {
+  font-size: 30px;
+  color: #b9a066;
 }
