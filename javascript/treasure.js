@@ -1,5 +1,6 @@
 function showAllTreasures(response) {
   const treasures = response.data.data;
+  treasures.sort((a, b) => a.id - b.id);
   let container = document.querySelector("#treasure-container");
 
   if (!container) {

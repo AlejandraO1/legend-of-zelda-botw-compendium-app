@@ -1,5 +1,6 @@
 function showAllMaterials(response) {
   const materials = response.data.data;
+  materials.sort((a, b) => a.id - b.id);
   let container = document.querySelector("#material-container");
 
   if (!container) {

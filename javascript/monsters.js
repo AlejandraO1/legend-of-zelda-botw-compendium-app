@@ -1,5 +1,6 @@
 function showAllMonsters(response) {
   const monsters = response.data.data;
+  monsters.sort((a, b) => a.id - b.id);
   let container = document.querySelector("#monster-container");
 
   if (!container) {

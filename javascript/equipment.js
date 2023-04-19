@@ -1,5 +1,6 @@
 function showAllEquipments(response) {
   const equipments = response.data.data;
+  equipments.sort((a, b) => a.id - b.id);
   let container = document.querySelector("#equipment-container");
 
   if (!container) {
