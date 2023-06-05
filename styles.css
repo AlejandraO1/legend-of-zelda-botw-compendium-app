@@ -85,7 +85,7 @@ footer a:hover {
 }
 
 .hero-homepage {
-  padding-bottom: 75px;
+  padding-bottom: 15px;
   padding-top: 15px;
 }
 
@@ -96,7 +96,6 @@ footer a:hover {
 
 .entry-examples {
   margin-top: 10px;
-  margin-bottom: 25px;
   font-size: 14px;
 }
 
@@ -130,6 +129,20 @@ footer a:hover {
 
 .content-header {
   padding-bottom: 45px;
+}
+
+.entry {
+  background-color: #fdffe0;
+  padding: 45px;
+}
+
+.entry h3,
+.entry h4 {
+  color: #b9a066;
+}
+
+.entry h5 {
+  color: #526f50;
 }
 
 /* Creatures Page */
